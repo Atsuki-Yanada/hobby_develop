@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\System">
+      <UniqueIdentifier>{a3e1f06e-2957-4b10-83c0-74cf71fe7937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System">
+      <UniqueIdentifier>{65d8d188-ea9b-4c9a-8ab9-11a8b5f4946d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{2660fe3a-5bc4-4748-aa95-66360cd0342f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene">
+      <UniqueIdentifier>{28a25398-ab5e-429f-a0d9-58c9a733a991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Scenes">
+      <UniqueIdentifier>{e79e02f7-1ea7-4e1f-87af-c2b81e9e9bca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Manager">
+      <UniqueIdentifier>{6099e117-9b7f-4053-a51f-77ae4de3322d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene\Scenes">
+      <UniqueIdentifier>{a6687619-3768-41ef-964f-ea7a68dd846c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene\Manager">
+      <UniqueIdentifier>{dc65e852-12ef-4d58-97fe-913719f2fc91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\DesignPatern">
+      <UniqueIdentifier>{7e198516-989b-4cef-b67a-8025ad6a3331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Unit">
+      <UniqueIdentifier>{907691bc-3198-4ce1-9194-2c96cda72085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Unit">
+      <UniqueIdentifier>{ec957957-5636-459f-b3d6-4e48002359bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\PhysicalLaw">
+      <UniqueIdentifier>{2b2a2e68-1bf1-4ce4-8fe0-e7f83407804f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\PhysicalLaw\Collision">
+      <UniqueIdentifier>{ea3d7fd2-0b85-4fa4-b5f6-643779947170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\PhysicalLaw">
+      <UniqueIdentifier>{8d1785ca-9212-40a0-add9-ad213fab5f1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Unit\Player">
+      <UniqueIdentifier>{bf9be6d4-24f3-4a52-9834-ce866c38fa56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Unit\Foundation">
+      <UniqueIdentifier>{4e93c60f-ba64-4786-93e2-835bed370fd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Unit\Stage">
+      <UniqueIdentifier>{3fbe7b84-715b-4f5b-b16b-e5ed0e820f5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Unit\Stage\BlockKind">
+      <UniqueIdentifier>{ad4df345-7044-440b-a7ac-1d9ce008519e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Unit\Player">
+      <UniqueIdentifier>{4f29eb0d-844a-4084-aa0b-8ddfb1e17f0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Unit\Foundation">
+      <UniqueIdentifier>{f1c7e029-5dd8-436e-9e06-79eefd007ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Unit\Stage">
+      <UniqueIdentifier>{c1973982-ed3d-4cd2-b299-659b2cb240c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Unit\Stage\BlockKind">
+      <UniqueIdentifier>{025393e5-39b9-4373-a622-7f41e0bcf4db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Camera">
+      <UniqueIdentifier>{b4af5830-4ed4-4fc9-9253-129ebfc54241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\PhysicalLaw\Collisioin">
+      <UniqueIdentifier>{cc1531eb-6147-4673-9763-5024eb373871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{1a07652a-3175-4e59-b2b0-186499eb3ad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Timer">
+      <UniqueIdentifier>{bd033134-3655-42b7-8795-64aeda117e72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\DispConsole">
+      <UniqueIdentifier>{91f44b8b-3c4a-4892-9964-cb04c9e56d95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Debug">
+      <UniqueIdentifier>{3997b4ef-c62d-4f0e-a6c4-29dbdfc57251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\PhysicalLaw\ObjectData">
+      <UniqueIdentifier>{93894d69-ca1f-4d0f-9f7c-f362a7199e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\PhysicalLaw\ObjectData">
+      <UniqueIdentifier>{ba3f18bb-f974-484e-823a-12acbb09c266}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Looper.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Define.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>ソース ファイル\Scene\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>ソース ファイル\Scene\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractScene.cpp">
+      <Filter>ソース ファイル\Scene\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigScene.cpp">
+      <Filter>ソース ファイル\Scene\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>ソース ファイル\Scene\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="StageLoader.cpp">
+      <Filter>ソース ファイル\Unit\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Error.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="StageBlock.cpp">
+      <Filter>ソース ファイル\Unit\Stage\BlockKind</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicalLaw.cpp">
+      <Filter>ソース ファイル\PhysicalLaw</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\Unit\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractUnit.cpp">
+      <Filter>ソース ファイル\Unit\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitMgr.cpp">
+      <Filter>ソース ファイル\Unit\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="IOnPeepContainer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionDetector.cpp">
+      <Filter>ソース ファイル\PhysicalLaw\Collisioin</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Utility\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="DispConsole.cpp">
+      <Filter>Utility\DispConsole</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Utility\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicalObject.cpp">
+      <Filter>ソース ファイル\PhysicalLaw\ObjectData</Filter>
+    </ClCompile>
+    <ClCompile Include="WoodBlock.cpp">
+      <Filter>ソース ファイル\Unit\Stage\BlockKind</Filter>
+    </ClCompile>
+    <ClCompile Include="StoneBlock.cpp">
+      <Filter>ソース ファイル\Unit\Stage\BlockKind</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallWindow.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Looper.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="ISceneChangedListener.h">
+      <Filter>ヘッダー ファイル\Scene\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractScene.h">
+      <Filter>ヘッダー ファイル\Scene\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>ヘッダー ファイル\Scene\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigScene.h">
+      <Filter>ヘッダー ファイル\Scene\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>ヘッダー ファイル\Scene\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>ヘッダー ファイル\Scene\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>ヘッダー ファイル\DesignPatern</Filter>
+    </ClInclude>
+    <ClInclude Include="StageLoader.h">
+      <Filter>ヘッダー ファイル\Unit\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Error.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="StageBlock.h">
+      <Filter>ヘッダー ファイル\Unit\Stage\BlockKind</Filter>
+    </ClInclude>
+    <ClInclude Include="StageBlockKind.h">
+      <Filter>ヘッダー ファイル\Unit\Stage\BlockKind</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicalLaw.h">
+      <Filter>ヘッダー ファイル\PhysicalLaw</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDetector.h">
+      <Filter>ヘッダー ファイル\PhysicalLaw\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ヘッダー ファイル\Unit\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractUnit.h">
+      <Filter>ヘッダー ファイル\Unit\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitMgr.h">
+      <Filter>ヘッダー ファイル\Unit\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="IOnPeepContainer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="IPlayerInfo.h">
+      <Filter>ヘッダー ファイル\Unit\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>ヘッダー ファイル\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Utility\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="DispConsole.h">
+      <Filter>Utility\DispConsole</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Utility\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectData.h">
+      <Filter>ヘッダー ファイル\PhysicalLaw\ObjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="Coordinate.h">
+      <Filter>ヘッダー ファイル\PhysicalLaw\ObjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="Velocity.h">
+      <Filter>ヘッダー ファイル\PhysicalLaw\ObjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicalObject.h">
+      <Filter>ヘッダー ファイル\PhysicalLaw\ObjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="OnWhere.h">
+      <Filter>ヘッダー ファイル\PhysicalLaw\ObjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodBlock.h">
+      <Filter>ヘッダー ファイル\Unit\Stage\BlockKind</Filter>
+    </ClInclude>
+    <ClInclude Include="StoneBlock.h">
+      <Filter>ヘッダー ファイル\Unit\Stage\BlockKind</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallWindow.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

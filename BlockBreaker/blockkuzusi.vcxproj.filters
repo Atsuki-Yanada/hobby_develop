@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Unit">
+      <UniqueIdentifier>{c0e93839-db76-4665-adc7-3bbeffcfec7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{5189925c-3b11-4724-a121-af9aef25d342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Collision">
+      <UniqueIdentifier>{f91514ea-ec1a-416f-9e55-2021f5a05185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Score">
+      <UniqueIdentifier>{22486d4f-c90a-449b-ace4-18b9e665fb9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Stage">
+      <UniqueIdentifier>{d4a59b88-a528-4983-8544-30104792adb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Manager">
+      <UniqueIdentifier>{9adbd4c4-4533-4b32-914e-a35fd3d4628c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Scenes">
+      <UniqueIdentifier>{222124e6-f312-4c56-838e-39879cc6154e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Collision">
+      <UniqueIdentifier>{a1509ca8-8a29-4dcf-9dfc-384cc4fba8cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Score">
+      <UniqueIdentifier>{78945ac4-fdc0-40ee-ae24-ff29a82b8990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System">
+      <UniqueIdentifier>{12d2d52a-9259-416f-b0e4-32095e0c632d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene">
+      <UniqueIdentifier>{72319cca-15a0-4a96-9d4d-5548d6722cc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene\Manager">
+      <UniqueIdentifier>{271e96aa-ce81-4dad-b1ac-0a36c74aadaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene\Scenes">
+      <UniqueIdentifier>{999c3521-fd09-41b3-8560-08ec717f92a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Unit">
+      <UniqueIdentifier>{6dbbaa66-4871-40e0-b9fe-6f1defab67d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Stage">
+      <UniqueIdentifier>{ac351bd3-0820-4a6d-9af4-8f8e1007820d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System">
+      <UniqueIdentifier>{4b793d6f-b429-4499-ba68-95adda6a86ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AbstractUnit.cpp">
+      <Filter>ソース ファイル\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>ソース ファイル\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Block_Mgr.cpp">
+      <Filter>ソース ファイル\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Star.cpp">
+      <Filter>ソース ファイル\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Star_Mgr.cpp">
+      <Filter>ソース ファイル\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Tama.cpp">
+      <Filter>ソース ファイル\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Define.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Looper.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>ソース ファイル\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>ソース ファイル\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>ソース ファイル\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo.cpp">
+      <Filter>ソース ファイル\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="StageLoader.cpp">
+      <Filter>ソース ファイル\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Error.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>ソース ファイル\Scene\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractScene.cpp">
+      <Filter>ソース ファイル\Scene\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>ソース ファイル\Scene\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigScene.cpp">
+      <Filter>ソース ファイル\Scene\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>ソース ファイル\Scene\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="HowtoScene.cpp">
+      <Filter>ソース ファイル\Scene\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClearSceen.cpp">
+      <Filter>ソース ファイル\Scene\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScene.cpp">
+      <Filter>ソース ファイル\Scene\Scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbstractUnit.h">
+      <Filter>ヘッダー ファイル\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>ヘッダー ファイル\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Block_Mgr.h">
+      <Filter>ヘッダー ファイル\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>ヘッダー ファイル\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo.h">
+      <Filter>ヘッダー ファイル\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Looper.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ヘッダー ファイル\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>ヘッダー ファイル\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="Star.h">
+      <Filter>ヘッダー ファイル\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Star_Mgr.h">
+      <Filter>ヘッダー ファイル\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Tama.h">
+      <Filter>ヘッダー ファイル\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>ヘッダー ファイル\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="StageLoader.h">
+      <Filter>ヘッダー ファイル\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Error.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>ヘッダー ファイル\Scene\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractScene.h">
+      <Filter>ヘッダー ファイル\Scene\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="ISceneChangedListener.h">
+      <Filter>ヘッダー ファイル\Scene\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>ヘッダー ファイル\Scene\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigScene.h">
+      <Filter>ヘッダー ファイル\Scene\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>ヘッダー ファイル\Scene\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="HowtoScene.h">
+      <Filter>ヘッダー ファイル\Scene\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockKind.h">
+      <Filter>ヘッダー ファイル\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClearSceen.h">
+      <Filter>ヘッダー ファイル\Scene\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScene.h">
+      <Filter>ヘッダー ファイル\Scene\Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
